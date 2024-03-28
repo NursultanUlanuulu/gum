@@ -1,5 +1,15 @@
-const App = () => {
-  return <div>App</div>;
-};
+import React from 'react'
+import Index from './../pages/index';
 
-export default App;
+
+
+
+const App = () => {
+  return (
+    <div>
+      <Index/>
+    </div>
+  )
+}
+
+export default App
