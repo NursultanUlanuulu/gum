@@ -1,5 +1,9 @@
+import Cards from "../pages/Cards";
+
 const App = () => {
-  return <div>App</div>;
+  return <div>
+    <Cards/>
+  </div>;
 };
 
 export default App;
