@@ -1,0 +1,24 @@
+import React from 'react';
+
+const SvgArrow = () => {
+    return (
+        <svg
+            width="10"
+            height="14"
+            viewBox="0 0 10 14"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M1.05469 8.49998H8.94658M8.94658 8.49998L5.05469 4.44592M8.94658 8.49998L5.05469 12.554"
+                stroke="#FF818A"
+                stroke-linecap="round"
+                stroke-linejoin="round"/>
+        </svg>
+
+    );
+};
+
+export default SvgArrow;
+
+export class SvgArrow {
+}
