@@ -1,7 +1,8 @@
-import FisrtCarousel from "../components/FirstCarousel/FisrtCarousel";
 
 const App = () => {
-  return <div><FisrtCarousel/></div>;
+  return <div>
+    App
+  </div>
 };
 
 export default App;
