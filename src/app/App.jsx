@@ -1,9 +1,8 @@
-import Cards from "../pages/Cards";
 
 const App = () => {
   return <div>
-    <Cards/>
-  </div>;
+    App
+  </div>
 };
 
 export default App;
