@@ -16,6 +16,7 @@ const Wrapper = styled.section`
   display: flex;
   justify-content: center;
   margin-bottom: 120px;
+  margin-top: 80px;
 `;
 const RedImg = styled.img`
   width: 288px;
@@ -62,6 +63,7 @@ const P = styled.p`
   align-items: flex-start;
   margin-left: 30px;
   color: white;
+  margin-bottom: 30px;
 `
 const Button1=styled.button`
   color: rgb(255, 255, 255);
@@ -74,6 +76,7 @@ const Button1=styled.button`
   padding: 12px 20px 13px 20px;
   border: 1px solid white;
   background: rgba(245, 59, 73, 0);;
+
 `
 
 const Partner = () => {

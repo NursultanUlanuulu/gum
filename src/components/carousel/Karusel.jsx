@@ -29,12 +29,14 @@ const ImgClock = styled.img`
 const DivSwiper = styled.div`
   width: 250px;
   border-radius: 10px;
+  text-align: left;
 `
 const H1 = styled.h1`
   color: rgb(56, 66, 85);
   font-size: 20px;
   font-weight: 800;
   text-align: left;
+  padding-bottom: 10px;
 `
 const P1 = styled.p`
   color: rgb(56, 66, 85);
@@ -74,6 +76,19 @@ const Button = styled.button`
   border-radius: 5px;
   border: 1px solid red;
   margin-top: 30px;
+  margin-bottom: 60px;
+`
+const Ptrenajor=styled.p`
+  text-align: left;
+  padding-bottom: 10px;
+  color: rgb(56, 66, 85);
+  font-size: 16px;
+  font-weight: 400;
+`
+const Pdata=styled.p`
+  color: rgb(56, 66, 85);
+  font-size: 16px;
+  font-weight: 400;
 `
 
 const Karusel = () => {
@@ -85,9 +100,8 @@ const Karusel = () => {
             </NewsDiv>
 
             <>
-
                 <Swiper
-                    slidesPerView={4}
+                    slidesPerView={3}
                     centeredSlides={true}
                     spaceBetween={30}
                     pagination={{
@@ -98,37 +112,78 @@ const Karusel = () => {
                     className="mySwiper">
 
 
-                    <SwiperSlide><DivSwiper>
+                    <SwiperSlide>
+                        <DivSwiper>
                         <ImgClock src={ImgOne}/>
-                        <H1>В продажу поступили тренажеры Nautilus</H1>
-                        <p>Представляем тренажеры <br/> Nautilus 626 серии.</p>
-                        <p>2021.07.18</p>
-                    </DivSwiper></SwiperSlide>
-                    <SwiperSlide> <DivSwiper>
-                        <ImgClock src={ImgTwo}/>
-                        <H1>В продажу поступили тренажеры Nautilus</H1>
-                        <p>Представляем тренажеры <br/> Nautilus 626 серии.</p>
-                        <p>2021.07.18</p>
-                    </DivSwiper></SwiperSlide>
-                    <SwiperSlide><DivSwiper>
-                        <ImgClock src={ImgThree}/>
-                        <H1>В продажу поступили тренажеры Nautilus</H1>
-                        <p>Представляем тренажеры <br/> Nautilus 626 серии.</p>
-                        <p>2021.07.18</p>
-                    </DivSwiper></SwiperSlide>
-                    <SwiperSlide><DivSwiper>
-                        <ImgClock src={ImgFour}/>
-                        <H1>В продажу поступили тренажеры Nautilus</H1>
-                        <p>Представляем тренажеры <br/> Nautilus 626 серии.</p>
-                        <p>2021.07.18</p>
-                    </DivSwiper></SwiperSlide>
-                    <SwiperSlide><DivSwiper>
-                        <ImgClock src={ImgOne}/>
-                        <H1>В продажу поступили тренажеры Nautilus</H1>
-                        <p>Представляем тренажеры <br/> Nautilus 626 серии.</p>
-                        <p>2021.07.18</p>
-                    </DivSwiper></SwiperSlide>
+                                <H1>В продажу поступили тренажеры Nautilus</H1>
+                                <Ptrenajor>Представляем тренажеры <br/> Nautilus 626 серии.</Ptrenajor>
+                                <Pdata>2021.07.18</Pdata>
 
+                    </DivSwiper>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <DivSwiper>
+                        <ImgClock src={ImgTwo}/>
+                                <H1>В продажу поступили тренажеры Nautilus</H1>
+                                <Ptrenajor>Представляем тренажеры <br/> Nautilus 626 серии.</Ptrenajor>
+                                <Pdata>2021.07.18</Pdata>
+
+                    </DivSwiper>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <DivSwiper>
+                        <ImgClock src={ImgThree}/>
+                                <H1>В продажу поступили тренажеры Nautilus</H1>
+                                <Ptrenajor>Представляем тренажеры <br/> Nautilus 626 серии.</Ptrenajor>
+                                <Pdata>2021.07.18</Pdata>
+
+                    </DivSwiper>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <DivSwiper>
+                        <ImgClock src={ImgFour}/>
+                                <H1>В продажу поступили тренажеры Nautilus</H1>
+                                <Ptrenajor>Представляем тренажеры <br/> Nautilus 626 серии.</Ptrenajor>
+                                <Pdata>2021.07.18</Pdata>
+
+                    </DivSwiper>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <DivSwiper>
+                        <ImgClock src={ImgOne}/>
+                                <H1>В продажу поступили тренажеры Nautilus</H1>
+                                <Ptrenajor>Представляем тренажеры <br/> Nautilus 626 серии.</Ptrenajor>
+                                <Pdata>2021.07.18</Pdata>
+
+                    </DivSwiper>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <DivSwiper>
+                        <ImgClock src={ImgTwo}/>
+                                <H1>В продажу поступили тренажеры Nautilus</H1>
+                                <Ptrenajor>Представляем тренажеры <br/> Nautilus 626 серии.</Ptrenajor>
+                                <Pdata>2021.07.18</Pdata>
+
+                    </DivSwiper>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <DivSwiper>
+                        <ImgClock src={ImgThree}/>
+                                <H1>В продажу поступили тренажеры Nautilus</H1>
+                                <Ptrenajor>Представляем тренажеры <br/> Nautilus 626 серии.</Ptrenajor>
+                                <Pdata>2021.07.18</Pdata>
+
+                    </DivSwiper>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <DivSwiper>
+                        <ImgClock src={ImgFour}/>
+                                <H1>В продажу поступили тренажеры Nautilus</H1>
+                                <Ptrenajor>Представляем тренажеры <br/> Nautilus 626 серии.</Ptrenajor>
+                                <Pdata>2021.07.18</Pdata>
+
+                    </DivSwiper>
+                    </SwiperSlide>
 
                 </Swiper>
 
